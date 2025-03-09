@@ -1,0 +1,747 @@
+<!DOCTYPE html><html lang="en" style="overflow-y: unset;" class="dark" data-scrapbook-source="https://web3bay.io/buy" data-scrapbook-create="20250309112619520" data-scrapbook-adoptedstylesheet-0=":host { z-index: var(--w3m-z-index); display: block; backface-visibility: hidden; position: fixed; inset: 0px; pointer-events: none; opacity: 0; background-color: var(--wui-cover); transition: opacity 0.2s var(--wui-ease-out-power-2); will-change: opacity; }
+
+:host(.open) { opacity: 1; }
+
+:host(.embedded) { position: relative; pointer-events: unset; background: none; width: 100%; opacity: 1; }
+
+wui-card { max-width: var(--w3m-modal-width); width: 100%; position: relative; animation-name: ; animation-duration: ; animation-timing-function: ; animation-delay: ; animation-iteration-count: ; animation-direction: ; animation-play-state: ; animation-fill-mode: backwards; outline: none; transition: border-radius var(--wui-duration-lg) var(--wui-ease-out-power-1),
+      background-color var(--wui-duration-lg) var(--wui-ease-out-power-1); will-change: border-radius, background-color; }
+
+:host(.embedded) wui-card { max-width: 400px; }
+
+wui-card[shake=&quot;true&quot;] { animation: zoom-in 0.2s var(--wui-ease-out-power-2),
+      w3m-shake 0.5s var(--wui-ease-out-power-2); }
+
+wui-flex { overflow: hidden auto; display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; }
+
+@media (max-height: 700px) and (min-width: 431px) {
+  wui-flex { align-items: flex-start; }
+  wui-card { margin: var(--wui-spacing-xxl) 0px; }
+}
+
+@media (max-width: 430px) {
+  wui-flex { align-items: flex-end; }
+  wui-card { max-width: 100%; border-bottom-left-radius: var(--local-border-bottom-mobile-radius); border-bottom-right-radius: var(--local-border-bottom-mobile-radius); border-bottom: medium; animation: slide-in 0.2s var(--wui-ease-out-power-2); }
+  wui-card[shake=&quot;true&quot;] { animation: slide-in 0.2s var(--wui-ease-out-power-2),
+        w3m-shake 0.5s var(--wui-ease-out-power-2); }
+}
+
+@keyframes zoom-in {
+  0% { transform: scale(0.95) translateY(0px); }
+  100% { transform: scale(1) translateY(0px); }
+}
+
+@keyframes slide-in {
+  0% { transform: scale(1) translateY(50px); }
+  100% { transform: scale(1) translateY(0px); }
+}
+
+@keyframes w3m-shake {
+  0% { transform: scale(1) rotate(0deg); }
+  20% { transform: scale(1) rotate(-1deg); }
+  40% { transform: scale(1) rotate(1.5deg); }
+  60% { transform: scale(1) rotate(-1.5deg); }
+  80% { transform: scale(1) rotate(1deg); }
+  100% { transform: scale(1) rotate(0deg); }
+}
+
+@keyframes w3m-view-height {
+  0% { height: var(--prev-height); }
+  100% { height: var(--new-height); }
+}"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><link rel="stylesheet" href="25462b2216316279.css" data-precedence="next"><link rel="stylesheet" href="d7147c0fed7ac384.css" data-precedence="next"><link rel="stylesheet" href="84a732f80fce367b.css" data-precedence="next"><link rel="stylesheet" href="1cbd4e31b1ee3f30.css" data-precedence="next"><link rel="stylesheet" href="11afe9bef6d47cda.css" data-precedence="next"><link rel="stylesheet" href="fa3157a2d8ac9edc.css" data-precedence="next"><link rel="stylesheet" href="96495d9cac41324c.css" data-precedence="next"><title>Embrace the Future of Decentralized E-Commerce | Buy on Web3Bay</title><meta name="description" content="Shop on Web3Bay's blockchain-powered marketplace using $WEB3BAY Coin. Enjoy secure, transparent, and efficient crypto transactions while accessing a global selection of products. Join us and revolutionize your online shopping experience."><link rel="icon" href="icon.png" type="image/png" sizes="64x64"><link rel="apple-touch-icon" href="https://web3bay.io/apple-icon.png?7f12334337c442a5" type="image/png" sizes="64x64"><meta name="next-size-adjust"><style>
+      @import url("css2.css");
+      @keyframes w3m-shake {
+        0% {
+          transform: scale(1) rotate(0deg);
+        }
+        20% {
+          transform: scale(1) rotate(-1deg);
+        }
+        40% {
+          transform: scale(1) rotate(1.5deg);
+        }
+        60% {
+          transform: scale(1) rotate(-1.5deg);
+        }
+        80% {
+          transform: scale(1) rotate(1deg);
+        }
+        100% {
+          transform: scale(1) rotate(0deg);
+        }
+      }
+      @keyframes w3m-iframe-fade-out {
+        0% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+      @keyframes w3m-iframe-zoom-in {
+        0% {
+          transform: translateY(50px);
+          opacity: 0;
+        }
+        100% {
+          transform: translateY(0px);
+          opacity: 1;
+        }
+      }
+      @keyframes w3m-iframe-zoom-in-mobile {
+        0% {
+          transform: scale(0.95);
+          opacity: 0;
+        }
+        100% {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+      :root {
+        --w3m-modal-width: 360px;
+        --w3m-color-mix-strength: 0%;
+        --w3m-font-family: Inter, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;;
+        --w3m-font-size-master: 10px;
+        --w3m-border-radius-master: 4px;
+        --w3m-z-index: 999;
+
+        --wui-font-family: var(--w3m-font-family);
+
+        --wui-font-size-mini: calc(var(--w3m-font-size-master) * 0.8);
+        --wui-font-size-micro: var(--w3m-font-size-master);
+        --wui-font-size-tiny: calc(var(--w3m-font-size-master) * 1.2);
+        --wui-font-size-small: calc(var(--w3m-font-size-master) * 1.4);
+        --wui-font-size-paragraph: calc(var(--w3m-font-size-master) * 1.6);
+        --wui-font-size-medium: calc(var(--w3m-font-size-master) * 1.8);
+        --wui-font-size-large: calc(var(--w3m-font-size-master) * 2);
+        --wui-font-size-title-6: calc(var(--w3m-font-size-master) * 2.2);
+        --wui-font-size-medium-title: calc(var(--w3m-font-size-master) * 2.4);
+        --wui-font-size-2xl: calc(var(--w3m-font-size-master) * 4);
+
+        --wui-border-radius-5xs: var(--w3m-border-radius-master);
+        --wui-border-radius-4xs: calc(var(--w3m-border-radius-master) * 1.5);
+        --wui-border-radius-3xs: calc(var(--w3m-border-radius-master) * 2);
+        --wui-border-radius-xxs: calc(var(--w3m-border-radius-master) * 3);
+        --wui-border-radius-xs: calc(var(--w3m-border-radius-master) * 4);
+        --wui-border-radius-s: calc(var(--w3m-border-radius-master) * 5);
+        --wui-border-radius-m: calc(var(--w3m-border-radius-master) * 7);
+        --wui-border-radius-l: calc(var(--w3m-border-radius-master) * 9);
+        --wui-border-radius-3xl: calc(var(--w3m-border-radius-master) * 20);
+
+        --wui-font-weight-light: 400;
+        --wui-font-weight-regular: 500;
+        --wui-font-weight-medium: 600;
+        --wui-font-weight-bold: 700;
+
+        --wui-letter-spacing-2xl: -1.6px;
+        --wui-letter-spacing-medium-title: -0.96px;
+        --wui-letter-spacing-title-6: -0.88px;
+        --wui-letter-spacing-large: -0.8px;
+        --wui-letter-spacing-medium: -0.72px;
+        --wui-letter-spacing-paragraph: -0.64px;
+        --wui-letter-spacing-small: -0.56px;
+        --wui-letter-spacing-tiny: -0.48px;
+        --wui-letter-spacing-micro: -0.2px;
+        --wui-letter-spacing-mini: -0.16px;
+
+        --wui-spacing-0: 0px;
+        --wui-spacing-4xs: 2px;
+        --wui-spacing-3xs: 4px;
+        --wui-spacing-xxs: 6px;
+        --wui-spacing-2xs: 7px;
+        --wui-spacing-xs: 8px;
+        --wui-spacing-1xs: 10px;
+        --wui-spacing-s: 12px;
+        --wui-spacing-m: 14px;
+        --wui-spacing-l: 16px;
+        --wui-spacing-2l: 18px;
+        --wui-spacing-xl: 20px;
+        --wui-spacing-xxl: 24px;
+        --wui-spacing-2xl: 32px;
+        --wui-spacing-3xl: 40px;
+        --wui-spacing-4xl: 90px;
+        --wui-spacing-5xl: 95px;
+
+        --wui-icon-box-size-xxs: 14px;
+        --wui-icon-box-size-xs: 20px;
+        --wui-icon-box-size-sm: 24px;
+        --wui-icon-box-size-md: 32px;
+        --wui-icon-box-size-mdl: 36px;
+        --wui-icon-box-size-lg: 40px;
+        --wui-icon-box-size-2lg: 48px;
+        --wui-icon-box-size-xl: 64px;
+
+        --wui-icon-size-inherit: inherit;
+        --wui-icon-size-xxs: 10px;
+        --wui-icon-size-xs: 12px;
+        --wui-icon-size-sm: 14px;
+        --wui-icon-size-md: 16px;
+        --wui-icon-size-mdl: 18px;
+        --wui-icon-size-lg: 20px;
+        --wui-icon-size-xl: 24px;
+        --wui-icon-size-xxl: 28px;
+
+        --wui-wallet-image-size-inherit: inherit;
+        --wui-wallet-image-size-sm: 40px;
+        --wui-wallet-image-size-md: 56px;
+        --wui-wallet-image-size-lg: 80px;
+
+        --wui-visual-size-size-inherit: inherit;
+        --wui-visual-size-sm: 40px;
+        --wui-visual-size-md: 55px;
+        --wui-visual-size-lg: 80px;
+
+        --wui-box-size-md: 100px;
+        --wui-box-size-lg: 120px;
+
+        --wui-ease-out-power-2: cubic-bezier(0, 0, 0.22, 1);
+        --wui-ease-out-power-1: cubic-bezier(0, 0, 0.55, 1);
+
+        --wui-ease-in-power-3: cubic-bezier(0.66, 0, 1, 1);
+        --wui-ease-in-power-2: cubic-bezier(0.45, 0, 1, 1);
+        --wui-ease-in-power-1: cubic-bezier(0.3, 0, 1, 1);
+
+        --wui-ease-inout-power-1: cubic-bezier(0.45, 0, 0.55, 1);
+
+        --wui-duration-lg: 200ms;
+        --wui-duration-md: 125ms;
+        --wui-duration-sm: 75ms;
+
+        --wui-path-network-sm: path(
+          'M15.4 2.1a5.21 5.21 0 0 1 5.2 0l11.61 6.7a5.21 5.21 0 0 1 2.61 4.52v13.4c0 1.87-1 3.59-2.6 4.52l-11.61 6.7c-1.62.93-3.6.93-5.22 0l-11.6-6.7a5.21 5.21 0 0 1-2.61-4.51v-13.4c0-1.87 1-3.6 2.6-4.52L15.4 2.1Z'
+        );
+
+        --wui-path-network-md: path(
+          'M43.4605 10.7248L28.0485 1.61089C25.5438 0.129705 22.4562 0.129705 19.9515 1.61088L4.53951 10.7248C2.03626 12.2051 0.5 14.9365 0.5 17.886V36.1139C0.5 39.0635 2.03626 41.7949 4.53951 43.2752L19.9515 52.3891C22.4562 53.8703 25.5438 53.8703 28.0485 52.3891L43.4605 43.2752C45.9637 41.7949 47.5 39.0635 47.5 36.114V17.8861C47.5 14.9365 45.9637 12.2051 43.4605 10.7248Z'
+        );
+
+        --wui-path-network-lg: path(
+          'M78.3244 18.926L50.1808 2.45078C45.7376 -0.150261 40.2624 -0.150262 35.8192 2.45078L7.6756 18.926C3.23322 21.5266 0.5 26.3301 0.5 31.5248V64.4752C0.5 69.6699 3.23322 74.4734 7.6756 77.074L35.8192 93.5492C40.2624 96.1503 45.7376 96.1503 50.1808 93.5492L78.3244 77.074C82.7668 74.4734 85.5 69.6699 85.5 64.4752V31.5248C85.5 26.3301 82.7668 21.5266 78.3244 18.926Z'
+        );
+
+        --wui-width-network-sm: 36px;
+        --wui-width-network-md: 48px;
+        --wui-width-network-lg: 86px;
+
+        --wui-height-network-sm: 40px;
+        --wui-height-network-md: 54px;
+        --wui-height-network-lg: 96px;
+
+        --wui-icon-size-network-xs: 12px;
+        --wui-icon-size-network-sm: 16px;
+        --wui-icon-size-network-md: 24px;
+        --wui-icon-size-network-lg: 42px;
+
+        --wui-color-inherit: inherit;
+
+        --wui-color-inverse-100: #fff;
+        --wui-color-inverse-000: #000;
+
+        --wui-cover: rgba(20, 20, 20, 0.8);
+
+        --wui-color-modal-bg: var(--wui-color-modal-bg-base);
+
+        --wui-color-accent-100: var(--wui-color-accent-base-100);
+        --wui-color-accent-090: var(--wui-color-accent-base-090);
+        --wui-color-accent-080: var(--wui-color-accent-base-080);
+
+        --wui-color-success-100: var(--wui-color-success-base-100);
+        --wui-color-success-125: var(--wui-color-success-base-125);
+
+        --wui-color-warning-100: var(--wui-color-warning-base-100);
+
+        --wui-color-error-100: var(--wui-color-error-base-100);
+        --wui-color-error-125: var(--wui-color-error-base-125);
+
+        --wui-color-blue-100: var(--wui-color-blue-base-100);
+        --wui-color-blue-90: var(--wui-color-blue-base-90);
+
+        --wui-icon-box-bg-error-100: var(--wui-icon-box-bg-error-base-100);
+        --wui-icon-box-bg-blue-100: var(--wui-icon-box-bg-blue-base-100);
+        --wui-icon-box-bg-success-100: var(--wui-icon-box-bg-success-base-100);
+        --wui-icon-box-bg-inverse-100: var(--wui-icon-box-bg-inverse-base-100);
+
+        --wui-all-wallets-bg-100: var(--wui-all-wallets-bg-100);
+
+        --wui-avatar-border: var(--wui-avatar-border-base);
+
+        --wui-thumbnail-border: var(--wui-thumbnail-border-base);
+
+        --wui-wallet-button-bg: var(--wui-wallet-button-bg-base);
+
+        --wui-box-shadow-blue: var(--wui-color-accent-glass-020);
+      }
+
+      @supports (background: color-mix(in srgb, white 50%, black)) {
+        :root {
+          --wui-color-modal-bg: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-modal-bg-base)
+          );
+
+          --wui-box-shadow-blue: color-mix(in srgb, var(--wui-color-accent-100) 20%, transparent);
+
+          --wui-color-accent-100: color-mix(
+            in srgb,
+            var(--wui-color-accent-base-100) 100%,
+            transparent
+          );
+          --wui-color-accent-090: color-mix(
+            in srgb,
+            var(--wui-color-accent-base-100) 90%,
+            transparent
+          );
+          --wui-color-accent-080: color-mix(
+            in srgb,
+            var(--wui-color-accent-base-100) 80%,
+            transparent
+          );
+          --wui-color-accent-glass-090: color-mix(
+            in srgb,
+            var(--wui-color-accent-base-100) 90%,
+            transparent
+          );
+          --wui-color-accent-glass-080: color-mix(
+            in srgb,
+            var(--wui-color-accent-base-100) 80%,
+            transparent
+          );
+          --wui-color-accent-glass-020: color-mix(
+            in srgb,
+            var(--wui-color-accent-base-100) 20%,
+            transparent
+          );
+          --wui-color-accent-glass-015: color-mix(
+            in srgb,
+            var(--wui-color-accent-base-100) 15%,
+            transparent
+          );
+          --wui-color-accent-glass-010: color-mix(
+            in srgb,
+            var(--wui-color-accent-base-100) 10%,
+            transparent
+          );
+          --wui-color-accent-glass-005: color-mix(
+            in srgb,
+            var(--wui-color-accent-base-100) 5%,
+            transparent
+          );
+          --wui-color-accent-002: color-mix(
+            in srgb,
+            var(--wui-color-accent-base-100) 2%,
+            transparent
+          );
+
+          --wui-color-fg-100: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-fg-100)
+          );
+          --wui-color-fg-125: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-fg-125)
+          );
+          --wui-color-fg-150: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-fg-150)
+          );
+          --wui-color-fg-175: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-fg-175)
+          );
+          --wui-color-fg-200: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-fg-200)
+          );
+          --wui-color-fg-225: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-fg-225)
+          );
+          --wui-color-fg-250: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-fg-250)
+          );
+          --wui-color-fg-275: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-fg-275)
+          );
+          --wui-color-fg-300: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-fg-300)
+          );
+          --wui-color-fg-325: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-fg-325)
+          );
+          --wui-color-fg-350: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-fg-350)
+          );
+
+          --wui-color-bg-100: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-bg-100)
+          );
+          --wui-color-bg-125: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-bg-125)
+          );
+          --wui-color-bg-150: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-bg-150)
+          );
+          --wui-color-bg-175: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-bg-175)
+          );
+          --wui-color-bg-200: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-bg-200)
+          );
+          --wui-color-bg-225: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-bg-225)
+          );
+          --wui-color-bg-250: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-bg-250)
+          );
+          --wui-color-bg-275: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-bg-275)
+          );
+          --wui-color-bg-300: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-bg-300)
+          );
+          --wui-color-bg-325: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-bg-325)
+          );
+          --wui-color-bg-350: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-bg-350)
+          );
+
+          --wui-color-success-100: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-success-base-100)
+          );
+          --wui-color-success-125: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-success-base-125)
+          );
+
+          --wui-color-warning-100: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-warning-base-100)
+          );
+
+          --wui-color-error-100: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-error-base-100)
+          );
+          --wui-color-blue-100: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-blue-base-100)
+          );
+          --wui-color-blue-90: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-blue-base-90)
+          );
+          --wui-color-error-125: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-error-base-125)
+          );
+
+          --wui-icon-box-bg-error-100: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-icon-box-bg-error-base-100)
+          );
+          --wui-icon-box-bg-accent-100: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-icon-box-bg-blue-base-100)
+          );
+          --wui-icon-box-bg-success-100: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-icon-box-bg-success-base-100)
+          );
+          --wui-icon-box-bg-inverse-100: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-icon-box-bg-inverse-base-100)
+          );
+
+          --wui-all-wallets-bg-100: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-all-wallets-bg-100)
+          );
+
+          --wui-avatar-border: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-avatar-border-base)
+          );
+
+          --wui-thumbnail-border: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-thumbnail-border-base)
+          );
+
+          --wui-wallet-button-bg: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-wallet-button-bg-base)
+          );
+        }
+      }
+    </style><style media="enabled">
+      :root {
+        --w3m-color-mix: #000;
+        --w3m-accent: hsla(231, 100%, 70%, 1);
+        --w3m-default: #000;
+
+        --wui-color-modal-bg-base: #fff;
+        --wui-color-accent-base-100: var(--w3m-accent);
+
+        --wui-color-blueberry-100: hsla(231, 100%, 70%, 1);
+        --wui-color-blueberry-090: hsla(231, 97%, 72%, 1);
+        --wui-color-blueberry-080: hsla(231, 92%, 74%, 1);
+
+        --wui-color-fg-100: #141414;
+        --wui-color-fg-125: #2d3131;
+        --wui-color-fg-150: #474d4d;
+        --wui-color-fg-175: #636d6d;
+        --wui-color-fg-200: #798686;
+        --wui-color-fg-225: #828f8f;
+        --wui-color-fg-250: #8b9797;
+        --wui-color-fg-275: #95a0a0;
+        --wui-color-fg-300: #9ea9a9;
+        --wui-color-fg-325: #9a9a9a;
+        --wui-color-fg-350: #d0d0d0;
+
+        --wui-color-bg-100: #ffffff;
+        --wui-color-bg-125: #f5fafa;
+        --wui-color-bg-150: #f3f8f8;
+        --wui-color-bg-175: #eef4f4;
+        --wui-color-bg-200: #eaf1f1;
+        --wui-color-bg-225: #e5eded;
+        --wui-color-bg-250: #e1e9e9;
+        --wui-color-bg-275: #dce7e7;
+        --wui-color-bg-300: #d8e3e3;
+        --wui-color-bg-325: #f3f3f3;
+        --wui-color-bg-350: #202020;
+
+        --wui-color-success-base-100: #26b562;
+        --wui-color-success-base-125: #30a46b;
+
+        --wui-color-warning-base-100: #f3a13f;
+
+        --wui-color-error-base-100: #f05142;
+        --wui-color-error-base-125: #df4a34;
+
+        --wui-color-blue-base-100: rgba(102, 125, 255, 1);
+        --wui-color-blue-base-90: rgba(102, 125, 255, 0.9);
+
+        --wui-color-success-glass-001: rgba(38, 181, 98, 0.01);
+        --wui-color-success-glass-002: rgba(38, 181, 98, 0.02);
+        --wui-color-success-glass-005: rgba(38, 181, 98, 0.05);
+        --wui-color-success-glass-010: rgba(38, 181, 98, 0.1);
+        --wui-color-success-glass-015: rgba(38, 181, 98, 0.15);
+        --wui-color-success-glass-020: rgba(38, 181, 98, 0.2);
+        --wui-color-success-glass-025: rgba(38, 181, 98, 0.25);
+        --wui-color-success-glass-030: rgba(38, 181, 98, 0.3);
+        --wui-color-success-glass-060: rgba(38, 181, 98, 0.6);
+        --wui-color-success-glass-080: rgba(38, 181, 98, 0.8);
+
+        --wui-color-success-glass-reown-020: rgba(48, 164, 107, 0.2);
+
+        --wui-color-warning-glass-reown-020: rgba(243, 161, 63, 0.2);
+
+        --wui-color-error-glass-001: rgba(240, 81, 66, 0.01);
+        --wui-color-error-glass-002: rgba(240, 81, 66, 0.02);
+        --wui-color-error-glass-005: rgba(240, 81, 66, 0.05);
+        --wui-color-error-glass-010: rgba(240, 81, 66, 0.1);
+        --wui-color-error-glass-015: rgba(240, 81, 66, 0.15);
+        --wui-color-error-glass-020: rgba(240, 81, 66, 0.2);
+        --wui-color-error-glass-025: rgba(240, 81, 66, 0.25);
+        --wui-color-error-glass-030: rgba(240, 81, 66, 0.3);
+        --wui-color-error-glass-060: rgba(240, 81, 66, 0.6);
+        --wui-color-error-glass-080: rgba(240, 81, 66, 0.8);
+
+        --wui-color-error-glass-reown-020: rgba(223, 74, 52, 0.2);
+
+        --wui-icon-box-bg-error-base-100: #f4dfdd;
+        --wui-icon-box-bg-blue-base-100: #d9ecfb;
+        --wui-icon-box-bg-success-base-100: #daf0e4;
+        --wui-icon-box-bg-inverse-base-100: #dcecfc;
+
+        --wui-all-wallets-bg-100: #e8f1fa;
+
+        --wui-avatar-border-base: #f3f4f4;
+
+        --wui-thumbnail-border-base: #eaefef;
+
+        --wui-wallet-button-bg-base: var(--wui-color-bg-125);
+
+        --wui-color-gray-glass-001: rgba(0, 0, 0, 0.01);
+        --wui-color-gray-glass-002: rgba(0, 0, 0, 0.02);
+        --wui-color-gray-glass-005: rgba(0, 0, 0, 0.05);
+        --wui-color-gray-glass-010: rgba(0, 0, 0, 0.1);
+        --wui-color-gray-glass-015: rgba(0, 0, 0, 0.15);
+        --wui-color-gray-glass-020: rgba(0, 0, 0, 0.2);
+        --wui-color-gray-glass-025: rgba(0, 0, 0, 0.25);
+        --wui-color-gray-glass-030: rgba(0, 0, 0, 0.3);
+        --wui-color-gray-glass-060: rgba(0, 0, 0, 0.6);
+        --wui-color-gray-glass-080: rgba(0, 0, 0, 0.8);
+        --wui-color-gray-glass-090: rgba(0, 0, 0, 0.9);
+
+        --wui-color-dark-glass-100: rgba(233, 233, 233, 1);
+
+        --w3m-card-embedded-shadow-color: rgb(224 225 233 / 25%);
+      }
+    </style><style>
+      :root {
+        --w3m-color-mix: #fff;
+        --w3m-accent: hsla(230, 100%, 67%, 1);
+        --w3m-default: #fff;
+
+        --wui-color-modal-bg-base: #121313;
+        --wui-color-accent-base-100: var(--w3m-accent);
+
+        --wui-color-blueberry-100: hsla(230, 100%, 67%, 1);
+        --wui-color-blueberry-090: hsla(231, 76%, 61%, 1);
+        --wui-color-blueberry-080: hsla(230, 59%, 55%, 1);
+        --wui-color-blueberry-050: hsla(231, 100%, 70%, 0.1);
+
+        --wui-color-fg-100: #e4e7e7;
+        --wui-color-fg-125: #d0d5d5;
+        --wui-color-fg-150: #a8b1b1;
+        --wui-color-fg-175: #a8b0b0;
+        --wui-color-fg-200: #949e9e;
+        --wui-color-fg-225: #868f8f;
+        --wui-color-fg-250: #788080;
+        --wui-color-fg-275: #788181;
+        --wui-color-fg-300: #6e7777;
+        --wui-color-fg-325: #9a9a9a;
+        --wui-color-fg-350: #363636;
+
+        --wui-color-bg-100: #141414;
+        --wui-color-bg-125: #191a1a;
+        --wui-color-bg-150: #1e1f1f;
+        --wui-color-bg-175: #222525;
+        --wui-color-bg-200: #272a2a;
+        --wui-color-bg-225: #2c3030;
+        --wui-color-bg-250: #313535;
+        --wui-color-bg-275: #363b3b;
+        --wui-color-bg-300: #3b4040;
+        --wui-color-bg-325: #252525;
+        --wui-color-bg-350: #ffffff;
+
+        --wui-color-success-base-100: #26d962;
+        --wui-color-success-base-125: #30a46b;
+
+        --wui-color-warning-base-100: #f3a13f;
+
+        --wui-color-error-base-100: #f25a67;
+        --wui-color-error-base-125: #df4a34;
+
+        --wui-color-blue-base-100: rgba(102, 125, 255, 1);
+        --wui-color-blue-base-90: rgba(102, 125, 255, 0.9);
+
+        --wui-color-success-glass-001: rgba(38, 217, 98, 0.01);
+        --wui-color-success-glass-002: rgba(38, 217, 98, 0.02);
+        --wui-color-success-glass-005: rgba(38, 217, 98, 0.05);
+        --wui-color-success-glass-010: rgba(38, 217, 98, 0.1);
+        --wui-color-success-glass-015: rgba(38, 217, 98, 0.15);
+        --wui-color-success-glass-020: rgba(38, 217, 98, 0.2);
+        --wui-color-success-glass-025: rgba(38, 217, 98, 0.25);
+        --wui-color-success-glass-030: rgba(38, 217, 98, 0.3);
+        --wui-color-success-glass-060: rgba(38, 217, 98, 0.6);
+        --wui-color-success-glass-080: rgba(38, 217, 98, 0.8);
+
+        --wui-color-success-glass-reown-020: rgba(48, 164, 107, 0.2);
+
+        --wui-color-warning-glass-reown-020: rgba(243, 161, 63, 0.2);
+
+        --wui-color-error-glass-001: rgba(242, 90, 103, 0.01);
+        --wui-color-error-glass-002: rgba(242, 90, 103, 0.02);
+        --wui-color-error-glass-005: rgba(242, 90, 103, 0.05);
+        --wui-color-error-glass-010: rgba(242, 90, 103, 0.1);
+        --wui-color-error-glass-015: rgba(242, 90, 103, 0.15);
+        --wui-color-error-glass-020: rgba(242, 90, 103, 0.2);
+        --wui-color-error-glass-025: rgba(242, 90, 103, 0.25);
+        --wui-color-error-glass-030: rgba(242, 90, 103, 0.3);
+        --wui-color-error-glass-060: rgba(242, 90, 103, 0.6);
+        --wui-color-error-glass-080: rgba(242, 90, 103, 0.8);
+
+        --wui-color-error-glass-reown-020: rgba(223, 74, 52, 0.2);
+
+        --wui-color-gray-glass-001: rgba(255, 255, 255, 0.01);
+        --wui-color-gray-glass-002: rgba(255, 255, 255, 0.02);
+        --wui-color-gray-glass-005: rgba(255, 255, 255, 0.05);
+        --wui-color-gray-glass-010: rgba(255, 255, 255, 0.1);
+        --wui-color-gray-glass-015: rgba(255, 255, 255, 0.15);
+        --wui-color-gray-glass-020: rgba(255, 255, 255, 0.2);
+        --wui-color-gray-glass-025: rgba(255, 255, 255, 0.25);
+        --wui-color-gray-glass-030: rgba(255, 255, 255, 0.3);
+        --wui-color-gray-glass-060: rgba(255, 255, 255, 0.6);
+        --wui-color-gray-glass-080: rgba(255, 255, 255, 0.8);
+        --wui-color-gray-glass-090: rgba(255, 255, 255, 0.9);
+
+        --wui-color-dark-glass-100: rgba(42, 42, 42, 1);
+
+        --wui-icon-box-bg-error-base-100: #3c2426;
+        --wui-icon-box-bg-blue-base-100: #20303f;
+        --wui-icon-box-bg-success-base-100: #1f3a28;
+        --wui-icon-box-bg-inverse-base-100: #243240;
+
+        --wui-all-wallets-bg-100: #222b35;
+
+        --wui-avatar-border-base: #252525;
+
+        --wui-thumbnail-border-base: #252525;
+
+        --wui-wallet-button-bg-base: var(--wui-color-bg-125);
+
+        --w3m-card-embedded-shadow-color: rgb(17 17 18 / 25%);
+      }
+    </style><script data-scrapbook-elem="custom-elements-loader">(function (names) { if (!customElements) { return; } for (const name of names) { customElements.define(name, class CustomElement extends HTMLElement {}); } })(["next-route-announcer","w3m-modal"])</script></head><body class="__className_d65c78" style="overflow-y: unset;"><header class="header_header__1OXnM"><div class="container_container__ZgtMu header_topbar__icr14"><a href="https://web3bay.io/contact-us"><p class="text_text__PePj0 color-text-blue text-size-xs font-weight-400">Contact Us</p></a><div class="header_topRight__vVIsq"><button class="themeToggle_toggle__f_XK2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 256 256" class="cz-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M233.54,142.23a8,8,0,0,0-8-2,88.08,88.08,0,0,1-109.8-109.8,8,8,0,0,0-10-10,104.84,104.84,0,0,0-52.91,37A104,104,0,0,0,136,224a103.09,103.09,0,0,0,62.52-20.88,104.84,104.84,0,0,0,37-52.91A8,8,0,0,0,233.54,142.23ZM188.9,190.34A88,88,0,0,1,65.66,67.11a89,89,0,0,1,31.4-26A106,106,0,0,0,96,56,104.11,104.11,0,0,0,200,160a106,106,0,0,0,14.92-1.06A89,89,0,0,1,188.9,190.34Z"></path></svg></button><a href=""><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 256 256" class="cz-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M221.8,175.94C216.25,166.38,208,139.33,208,104a80,80,0,1,0-160,0c0,35.34-8.26,62.38-13.81,71.94A16,16,0,0,0,48,200H88.81a40,40,0,0,0,78.38,0H208a16,16,0,0,0,13.8-24.06ZM128,216a24,24,0,0,1-22.62-16h45.24A24,24,0,0,1,128,216ZM48,184c7.7-13.24,16-43.92,16-80a64,64,0,1,1,128,0c0,36.05,8.28,66.73,16,80Z"></path></svg></a><a href=""><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 256 256" class="cz-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M136,120v56a8,8,0,0,1-16,0V120a8,8,0,0,1,16,0Zm36.84-.8-5.6,56A8,8,0,0,0,174.4,184a7.32,7.32,0,0,0,.81,0,8,8,0,0,0,7.95-7.2l5.6-56a8,8,0,0,0-15.92-1.6Zm-89.68,0a8,8,0,0,0-15.92,1.6l5.6,56a8,8,0,0,0,8,7.2,7.32,7.32,0,0,0,.81,0,8,8,0,0,0,7.16-8.76ZM239.93,89.06,224.86,202.12A16.06,16.06,0,0,1,209,216H47a16.06,16.06,0,0,1-15.86-13.88L16.07,89.06A8,8,0,0,1,24,80H68.37L122,18.73a8,8,0,0,1,12,0L187.63,80H232a8,8,0,0,1,7.93,9.06ZM89.63,80h76.74L128,36.15ZM222.86,96H33.14L47,200H209Z"></path></svg></a><div class="header_user__FiqWk d-md header_before__DCHK7"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 256 256" class="cz-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"></path></svg><p class="text_text__PePj0 color-text-blue text-size-sm font-weight-400">Log in</p></div></div></div><div class="container_container__ZgtMu header_midbar__t3E8o"><a href="https://web3bay.io/"><img alt="WEB3BAY" loading="lazy" width="86" height="50" decoding="async" data-nimg="1" class="header_logo__SX7rD" style="color:transparent" src="logo-dark.svg"></a><div class="header_buttons__xfvey"><div class="header_user__FiqWk d-sm"><div class="header_icon__ngra_ position-relative"><img alt="WEB3BAY" loading="lazy" decoding="async" data-nimg="fill" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" src="user-blue.svg"></div></div><div class="header_hamburger__nCheC d-sm"><span class="header_line__oL_Eo"></span><span class="header_line__oL_Eo"></span><span class="header_line__oL_Eo"></span></div></div><div class="header_right__MrQsU d-md"><div class="header_leftSide__juUWW"><a href="https://web3bay.io/products"><span class="text_text__PePj0 color-text-blue text-size-sm font-weight-400">All Products</span></a><a href="https://web3bay.io/products"><span class="text_text__PePj0 color-text-blue text-size-sm font-weight-400">Popular Products</span></a><div class="header_navLinksItemContainer__a4I7q"><span class="text_text__PePj0 color-text-blue text-size-sm font-weight-400 header_corporateButton__LqsOm">Categories<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 256 256" class="cz-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path></svg></span><div class="header_links__y15F_"><a href="https://web3bay.io/categories/luxury"><span class="text_text__PePj0 color-text-blue text-size-sm font-weight-400">Luxury</span></a><a href="https://web3bay.io/categories/sneakers"><span class="text_text__PePj0 color-text-blue text-size-sm font-weight-400">Sneakers</span></a><a href="https://web3bay.io/categories/p&amp;a"><span class="text_text__PePj0 color-text-blue text-size-sm font-weight-400">P&amp;A</span></a><a href="https://web3bay.io/categories/refurbished"><span class="text_text__PePj0 color-text-blue text-size-sm font-weight-400">Refurbished</span></a><a href="https://web3bay.io/categories/game-cards"><span class="text_text__PePj0 color-text-blue text-size-sm font-weight-400">Game Cards</span></a><a href="https://web3bay.io/categories/pre-loved-luxury"><span class="text_text__PePj0 color-text-blue text-size-sm font-weight-400">Pre-loved Luxury</span></a><a href="https://web3bay.io/categories/toys"><span class="text_text__PePj0 color-text-blue text-size-sm font-weight-400">Toys</span></a></div></div><div class="header_navLinksItemContainer__a4I7q"><span class="text_text__PePj0 color-text-blue text-size-sm font-weight-400 header_corporateButton__LqsOm">Corporate<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 256 256" class="cz-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path></svg></span><div class="header_links__y15F_"><a href="https://web3bay.io/about-us"><span class="text_text__PePj0 color-text-blue text-size-sm font-weight-400">About Us</span></a><a href="https://web3bay.io/roadmap"><span class="text_text__PePj0 color-text-blue text-size-sm font-weight-400">Roadmap</span></a><a href="https://web3bay.io/faq"><span class="text_text__PePj0 color-text-blue text-size-sm font-weight-400">FAQs</span></a></div></div><a href="https://web3bay.io/tokenomics"><span class="text_text__PePj0 color-text-blue text-size-sm font-weight-400">Tokenomics</span></a><a href="https://web3bay.io/calculator"><span class="text_text__PePj0 color-text-blue text-size-sm font-weight-400">Calculator</span></a><a href="https://web3bay.io/sell"><span class="text_text__PePj0 color-text-blue text-size-sm font-weight-400">Sell</span></a></div><div class="header_rightSide__mOJVE"><a class="button_button___iXOl button_green__081Cv button_dark__xS_p5" href="">Buy $WEB3BAY</a></div></div></div><div class="d-sm header_mobileNav__RK8_k"><div class="header_top__ldp4p"><div class="header_content__qVIvR header_active__2h9Dq"><div class="header_titleContainer__xgfVI"><span class="text_text__PePj0 color-text-blue text-size-lg font-weight-600">Categories</span><img alt="chevron" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" class="header_chevron___KkPu" style="color:transparent" src="chevron-down-dark.svg"></div><div class="header_links__y15F_ header_grid__sReZJ"><a href="https://web3bay.io/categories/luxury"><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">Luxury</p></a><a href="https://web3bay.io/categories/sneakers"><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">Sneakers</p></a><a href="https://web3bay.io/categories/p&amp;a"><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">P&amp;A</p></a><a href="https://web3bay.io/categories/refurbished"><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">Refurbished</p></a><a href="https://web3bay.io/categories/game-cards"><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">Game Cards</p></a><a href="https://web3bay.io/categories/pre-loved-luxury"><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">Pre-loved Luxury</p></a><a href="https://web3bay.io/categories/toys"><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">Toys</p></a></div></div><div class="header_content__qVIvR header_active__2h9Dq"><div class="header_titleContainer__xgfVI"><span class="text_text__PePj0 color-text-blue text-size-lg font-weight-600">Token</span><img alt="chevron" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" class="header_chevron___KkPu" style="color:transparent" src="chevron-down-dark.svg"></div><div class="header_links__y15F_"><a href="https://web3bay.io/sell"><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">Sell Product</p></a><a href="https://web3bay.io/roadmap"><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">Roadmap</p></a><a href="https://web3bay.io/tokenomics"><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">Tokenomics</p></a><a href="https://web3bay.io/whitepaper.pdf"><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">Whitepaper</p></a></div></div><div class="header_content__qVIvR header_active__2h9Dq"><div class="header_titleContainer__xgfVI"><span class="text_text__PePj0 color-text-blue text-size-lg font-weight-600">Company</span><img alt="chevron" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" class="header_chevron___KkPu" style="color:transparent" src="chevron-down-dark.svg"></div><div class="header_links__y15F_"><a href="https://web3bay.io/about-us"><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">About Us</p></a><a href="https://web3bay.io/faq"><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">FAQs</p></a><a href="https://web3bay.io/contact-us"><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">Contact Us</p></a></div></div></div><div class="header_buttonContainer___TcUj"><a class="button_button___iXOl button_green__081Cv header_button__H_1Xn button_dark__xS_p5" href="">BUY $3BAY</a></div><div class="header_bot__cOIaq"><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">Copyright © 2024 Web3BAY - All Rights Reserved<!-- --> </p><div class="header_terms__ZXX_K"><a href="https://web3bay.io/cookie-policy"><p class="text_text__PePj0 color-gray text-size-xs font-weight-400">Cookie Policy</p></a><a href="https://web3bay.io/terms-of-use"><p class="text_text__PePj0 color-gray text-size-xs font-weight-400">Terms of Use</p></a><a href="https://web3bay.io/privacy-policy"><p class="text_text__PePj0 color-gray text-size-xs font-weight-400">Privacy Policy</p></a></div><div class="header_socials__AEuN5"><a class="header_item__YVP7l" href="https://www.facebook.com/profile.php?id=61568688302333&amp;is_tour_dismissed"><img alt="Facebook" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" class="" style="color:transparent" src="facebook-blue.svg"></a><a class="header_item__YVP7l" href="https://x.com/web3bayofficial"><img alt="Twitter" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" class="" style="color:transparent" src="x-blue.svg"></a><a class="header_item__YVP7l" href="https://www.instagram.com/web3bayofficial?igsh=MXBndm84ZmVubGtycQ%3D%3D&amp;utm_source=qr"><img alt="Instagram" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" class="" style="color:transparent" src="instagram-blue.svg"></a><a class="header_item__YVP7l" href="https://t.me/web3bayofficial"><img alt="Telegram" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" class="" style="color:transparent" src="telegram-blue.svg"></a></div></div></div></header><main><section class="section_section__aNYXm BuyHero_section__KHfZ0"><div class="container_container__ZgtMu BuyHero_container__K4NFM"><div class="BuyHero_content__I9r14"><div class="BuyHero_left__P5lJj"><div class="BuyHero_left_top__skgOU d-md"><div class="BuyHero_logo__EfF5l position-relative" style="aspect-ratio:151/147"><img alt="logo coin web3bay" loading="lazy" decoding="async" data-nimg="fill" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" src="logo-coin.svg"></div><div class="BuyHero_texts__IsMGe"><p class="title_title__BsuHC color-text-blue title-size-md font-weight-600">Buy WEB3BAY Coin</p><p class="text_text__PePj0 color-text-blue text-size-lg font-weight-400">WEB3BAY Coin is the native cryptocurrency of the Web3Bay platform, designed to provide a seamless and secure transaction experience within our ecosystem. Join the future of online shopping and investment by purchasing WEB3BAY Coin today!</p></div></div><div class="BuyHero_table__AbkDy"><div class="BuyHero_table_item__PWUys"><p class="text_text__PePj0 color-primary text-size-lg font-weight-400">Total Raised</p><p class="title_title__BsuHC color-primary title-size-sm font-weight-700">$1,639,694.87</p></div><div class="BuyHero_table_item__PWUys"><p class="text_text__PePj0 color-wallet-gray-text text-size-lg font-weight-400">Purchased</p><p class="title_title__BsuHC color-text-blue title-size-xs font-weight-700">396.18M</p></div><div class="BuyHero_table_item__PWUys"><p class="text_text__PePj0 color-wallet-gray-text text-size-lg font-weight-400">Remaining Coin</p><p class="title_title__BsuHC color-text-blue title-size-xs font-weight-700">177.3M</p></div><div class="BuyHero_table_item__PWUys"><p class="text_text__PePj0 color-wallet-gray-text text-size-lg font-weight-400">Launch Price</p><p class="title_title__BsuHC color-text-blue title-size-xs font-weight-700">$0.1959</p></div><div class="BuyHero_table_item__PWUys"><p class="text_text__PePj0 color-wallet-gray-text text-size-lg font-weight-400">Presale Start Price</p><p class="title_title__BsuHC color-text-blue title-size-xs font-weight-700">$0.003</p></div><div class="BuyHero_table_item__PWUys"><p class="text_text__PePj0 color-primary text-size-lg font-weight-500">Current Price</p><p class="title_title__BsuHC color-text-blue title-size-xs font-weight-700">$0.00524701875</p></div></div><div class="Notice_alert__x5gli Notice_dark__3YLpp"><div class="Notice_icon__r075k position-relative"><img alt="Alert icon" loading="lazy" decoding="async" data-nimg="fill" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" src="alert-blue.svg"></div><div class="Notice_texts__hfDO_"><h6 class="text_text__PePj0 color-gray text-size-xs font-weight-600">Important Notice</h6><p class="text_text__PePj0 color-gray text-size-xs font-weight-400">The products listed on our site are currently available for preview only and will be available for purchase at a later date. Please stay tuned for updates on the official launch date. We appreciate your understanding and patience.</p></div></div></div><div><div class="wallet_wallet__HKWGq"><div class="wallet_totalRaised__0tPOK"><p class="text_text__PePj0 color-wallet-black-text text-size-lg font-weight-400">Total Raised</p><p class="title_title__BsuHC color-primary title-size-sm font-weight-700">$1,639,694.87</p><div class="style_progressbar__ee5UG"><span class="style_progress__CmKaw" style="width: 6.97%;"><span class="style_progressValue__w686w" style="left: 6.97%;"><span class="text_text__PePj0 color-text-blue text-size-md font-weight-700">6.97%</span></span></span></div></div><div class="wallet_purchaseDetails__GvgPE"><div class="wallet_item__GBQlt"><p class="text_text__PePj0 color-wallet-gray-text text-size-md font-weight-400">Purchased</p><p class="text_text__PePj0 color-wallet-black-text text-size-xl font-weight-700">396.18M</p></div><div class="wallet_border__Nb1rz"></div><div class="wallet_item__GBQlt"><p class="text_text__PePj0 color-wallet-gray-text text-size-md font-weight-400">Remaining</p><p class="text_text__PePj0 color-wallet-black-text text-size-xl font-weight-700">177.3M</p></div></div><div class="wallet_allPrices__PnXe5"><div class="wallet_price__z4tBj"><p class="text_text__PePj0 color-primary text-size-md font-weight-400">Stage</p><p class="text_text__PePj0 color-wallet-black-text text-size-xl font-weight-700">5</p></div><div class="wallet_border__Nb1rz"></div><div class="wallet_price__z4tBj"><p class="text_text__PePj0 color-primary text-size-md font-weight-400">Launch Price</p><p class="text_text__PePj0 color-wallet-black-text text-size-xl font-weight-700">$0.1959</p></div><div class="wallet_border__Nb1rz"></div><div class="wallet_price__z4tBj"><p class="text_text__PePj0 color-primary text-size-md font-weight-400">Current Price</p><p class="text_text__PePj0 color-wallet-black-text text-size-xl font-weight-700">$0.00524701875</p></div></div><div class="wallet_otherCryptos__2TkU1 "><img alt="Bitcoin" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" style="color:transparent" src="btc.svg"><img alt="Tether-Tron" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" style="color:transparent" src="usdttrc20.svg"><img alt="Kaspa" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" style="color:transparent" src="kas.svg"><img alt="DOGE" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" style="color:transparent" src="doge.svg"><img alt="Shiba Inu" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" style="color:transparent" src="shib.svg"><img alt="SOLANA" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" style="color:transparent" src="sol.svg"><img alt="extra" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" class="wallet_extra__ZLA9e" style="color:transparent" src="extra.svg"><span>Other Cryptos</span></div><div class="wallet_box__k_gia !pl-0"><div class="select_select__bR7l1 wallet_customSelectClass__fjkuB"><div class="select_selectInput__R7n3C wallet_customInputClass__BArgU"><span><div class="select_valueIcon__pfzyb position-relative" style="aspect-ratio: 1 / 1;"><img alt="WEB3BAY" loading="lazy" decoding="async" data-nimg="fill" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;" src="ETH.svg"></div>ETH</span><svg class="select_icon2__6fo4j" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 7.5L10 12.5L15 7.5" stroke="#101323" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div><div class="select_dropdown__iFBO8 wallet_customDropdownClass__9beNa"><div class="select_dropItem__Wuiuj"><div class="wallet_selectItem__vAiLy"><div class="wallet_circle__CUTet wallet_active__9n3l6"><svg class="wallet_checkmark__UL_5p" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.8099 5L7.64323 14.1667L3.47656 10" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div><div class="wallet_icon__vpATp position-relative"><img alt="WEB3BAY" loading="lazy" decoding="async" data-nimg="fill" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" src="ETH.svg"></div><p class="text_text__PePj0 color-black text-size-md font-weight-600">ETH</p></div></div><div class="select_dropItem__Wuiuj"><div class="wallet_selectItem__vAiLy"><div class="wallet_circle__CUTet"></div><div class="wallet_icon__vpATp position-relative"><img alt="WEB3BAY" loading="lazy" decoding="async" data-nimg="fill" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" src="BNB-icon.svg"></div><p class="text_text__PePj0 color-black text-size-md font-weight-600">BNB</p></div></div><div class="select_dropItem__Wuiuj"><div class="wallet_selectItem__vAiLy"><div class="wallet_circle__CUTet"></div><div class="wallet_icon__vpATp position-relative"><img alt="WEB3BAY" loading="lazy" decoding="async" data-nimg="fill" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" src="usdt-icon.svg"></div><p class="text_text__PePj0 color-black text-size-md font-weight-600">USDT</p></div></div></div></div><input class="wallet_transparent__SDMRQ text-end" placeholder="Enter Amount" translate="no" type="number" inputmode="decimal" min="0" value=""></div><div class="wallet_valueInfo__LFIXF"><p class="text_text__PePj0 color-primary text-size-md font-weight-500">You’ll Get</p><p class="title_title__BsuHC color-black title-size-md font-weight-700">0</p><span class="text_text__PePj0 color-black text-size-xl font-weight-700 wallet_currency__BHWmx"><div class="wallet_logo__NoT8g position-relative" style="aspect-ratio:1/1"><img alt="WEB3BAY" loading="lazy" decoding="async" data-nimg="fill" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" src="logo-coin.svg"></div>3BAY</span></div><div class="wallet_buttons__o88vm"><button type="button" class="button_button___iXOl button_green__081Cv wallet_buyButton__hJzx_ button_dark__xS_p5">Connect Wallet</button><a class="button_button___iXOl button_light__SipUy button_dark__xS_p5" href="https://web3bay.io/how-to-buy"><div class="wallet_questionIcon__ghBOW position-relative" style="aspect-ratio:1/1"><img alt="WEB3BAY" loading="lazy" decoding="async" data-nimg="fill" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" src="question-mark-blue.svg"></div>How To Buy</a></div></div></div></div></div></section><section class="section_section__aNYXm WhyThisCoin_section__97a2n"><div class="container_container__ZgtMu WhyThisCoin_container__OiHUl"><div class="WhyThisCoin_content__MdBRP"><div class="SectionTopTexts_content__q2DlT"><span class="text_text__PePj0 color-primary text-size-lg font-weight-600 text_uppercase__evvBR">Investment</span><h2 class="title_title__BsuHC color-text-blue title-size-md font-weight-600">Why Buy WEB3BAY Coin?</h2></div><div class="WhyThisCoin_list__OfGQW"><div class="WhyThisCoin_list_item__qHOSc"><div class="WhyThisCoin_icon__TS5nC position-relative" style="aspect-ratio:1/1"><img alt="WEB3BAY" loading="lazy" decoding="async" data-nimg="fill" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" src="exclusive-benefits.svg"></div><p class="title_title__BsuHC color-text-blue title-size-xs font-weight-700">Exclusive Benefits</p><ul><li><p class="text_text__PePj0 color-text-blue text-size-md font-weight-400">Early Access to Sales: Be the first to access exclusive products and sales events.</p></li><li><p class="text_text__PePj0 color-text-blue text-size-md font-weight-400">Discounts and Offers: Enjoy special discounts and promotional offers only available to WEB3BAY Coin holders.</p></li><li><p class="text_text__PePj0 color-text-blue text-size-md font-weight-400">Loyalty Rewards: Earn rewards and bonuses for holding and using WEB3BAY Coin on our platform.</p></li></ul></div><div class="WhyThisCoin_list_item__qHOSc"><div class="WhyThisCoin_icon__TS5nC position-relative" style="aspect-ratio:1/1"><img alt="WEB3BAY" loading="lazy" decoding="async" data-nimg="fill" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" src="secure-and-transparent-transactions.svg"></div><p class="title_title__BsuHC color-text-blue title-size-xs font-weight-700">Secure and Transparent Transactions</p><p class="text_text__PePj0 color-text-blue text-size-md font-weight-400"> <span class="text_text__PePj0 color-text-blue text-size-md font-weight-600">Blockchain Technology:</span> <!-- -->All transactions are secured by blockchain technology, ensuring transparency and security.</p><p class="text_text__PePj0 color-text-blue text-size-md font-weight-400"> <span class="text_text__PePj0 color-text-blue text-size-md font-weight-600">Low Transaction Fees:</span> <!-- -->Benefit from low transaction fees compared to traditional payment methods.</p></div><div class="WhyThisCoin_list_item__qHOSc"><div class="WhyThisCoin_icon__TS5nC position-relative" style="aspect-ratio:1/1"><img alt="WEB3BAY" loading="lazy" decoding="async" data-nimg="fill" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" src="investment-opportunity.svg"></div><p class="title_title__BsuHC color-text-blue title-size-xs font-weight-700">Investment Opportunity</p><p class="text_text__PePj0 color-text-blue text-size-md font-weight-400"> <span class="text_text__PePj0 color-text-blue text-size-md font-weight-600">Growth Potential:</span> <!-- -->As Web3Bay expands, the value of WEB3BAY Coin is expected to grow, offering a promising investment opportunity.</p><p class="text_text__PePj0 color-text-blue text-size-md font-weight-400"> <span class="text_text__PePj0 color-text-blue text-size-md font-weight-600">Staking Rewards:<!-- --> </span> <!-- -->Stake your WEB3BAY Coins and earn additional rewards over time.</p></div></div></div></div></section><section id="how-to-buy" class="section_section__aNYXm HowToBuy_section__cn2pe"><div class="container_container__ZgtMu HowToBuy_container__wHjKs"><div class="HowToBuy_content__H0gmK"><div class="SectionTopTexts_content__q2DlT"><span class="text_text__PePj0 color-primary text-size-lg font-weight-600 text_uppercase__evvBR">HOW TO BUY</span><h2 class="title_title__BsuHC color-text-blue title-size-md font-weight-600">How to Buy WEB3BAY Coin</h2></div><div class="HowToBuy_list__nGAOT"><div class="HowToBuy_list_item__yWg2e"><div class="HowToBuy_icon__AmvzY position-relative" style="aspect-ratio:1/1"><img alt="WEB3BAY" loading="lazy" decoding="async" data-nimg="fill" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" src="plus-circle.svg"></div><p class="title_title__BsuHC color-primary title-size-xs font-weight-700">Create a Digital Wallets</p><p class="text_text__PePj0 color-text-blue text-size-md font-weight-400"> <!-- -->To purchase WEB3BAY Coin, you need a digital wallet. If you don’t have one, follow our guide to create a secure wallet.</p></div><div class="HowToBuy_list_item__yWg2e"><div class="HowToBuy_icon__AmvzY position-relative" style="aspect-ratio:1/1"><img alt="WEB3BAY" loading="lazy" decoding="async" data-nimg="fill" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" src="wallet.svg"></div><p class="title_title__BsuHC color-primary title-size-xs font-weight-700">Link Your Wallet</p><p class="text_text__PePj0 color-text-blue text-size-md font-weight-400"> <!-- -->Link your digital wallet to the Web3Bay platform. Visit our Wallet Linking page for detailed instructions.</p></div><div class="HowToBuy_list_item__yWg2e"><div class="HowToBuy_icon__AmvzY position-relative" style="aspect-ratio:1/1"><img alt="WEB3BAY" loading="lazy" decoding="async" data-nimg="fill" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" src="purchase-coin.svg"></div><p class="title_title__BsuHC color-primary title-size-xs font-weight-700">Purchase WEB3BAY Coin</p><p class="text_text__PePj0 color-text-blue text-size-md font-weight-400"> <span class="text_text__PePj0 color-text-blue text-size-md font-weight-600">Select Purchase Amount:</span> <!-- -->Choose the amount of WEB3BAY Coin you want to buy.</p><p class="text_text__PePj0 color-text-blue text-size-md font-weight-400"> <span class="text_text__PePj0 color-text-blue text-size-md font-weight-600">Complete Payment:</span> <!-- -->Follow the payment instructions to complete your purchase securely.</p></div><div class="HowToBuy_list_item__yWg2e"><div class="HowToBuy_icon__AmvzY position-relative" style="aspect-ratio:1/1"><img alt="WEB3BAY" loading="lazy" decoding="async" data-nimg="fill" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" src="confirm.svg"></div><p class="title_title__BsuHC color-primary title-size-xs font-weight-700">Confirm Purchase</p><p class="text_text__PePj0 color-text-blue text-size-md font-weight-400"> <!-- -->Once the payment is processed, your WEB3BAY Coins will be transferred to your linked wallet. You can view your balance and transaction history on your Web3Bay account dashboard.</p></div></div></div></div></section><section class="section_section__aNYXm ReferralProgram_section__Y5jgu"><div class="container_container__ZgtMu ReferralProgram_container__VSgyX"><div class="ReferralProgram_content__EjhcD"><div class="ReferralProgram_top__Z4fAY"><span class="text_text__PePj0 color-primary text-size-lg font-weight-600">REFERRAL PROGRAM</span><h3 class="title_title__BsuHC color-text-blue title-size-md font-weight-600">Web3Bay Referral Program: A Step-by-Step Guide</h3></div><div class="ReferralProgram_boxes__LFWTt"><div class="InfoBox_box__kYR1v"><img alt="WEB3BAY" loading="lazy" width="52" height="52" decoding="async" data-nimg="1" class="InfoBox_icon__ERJAf" style="color:transparent" src="1.svg"><h3 class="title_title__BsuHC color-text-blue title-size-xs font-weight-700">Log In and Get Your Link</h3><p class="text_text__PePj0 color-text-blue text-size-sm font-weight-400">Log in to your Web3Bay account, and your unique referral link will be automatically generated. This link is your gateway to earning extra rewards.</p></div><div class="InfoBox_box__kYR1v"><img alt="WEB3BAY" loading="lazy" width="52" height="52" decoding="async" data-nimg="1" class="InfoBox_icon__ERJAf" style="color:transparent" src="2.svg"><h3 class="title_title__BsuHC color-text-blue title-size-xs font-weight-700">Share Your Link</h3><p class="text_text__PePj0 color-text-blue text-size-sm font-weight-400">Spread your referral link to friends, family, and anyone in your network. Use platforms like social media, email, or messaging apps to get the word out and drive engagement.</p></div><div class="InfoBox_box__kYR1v"><img alt="WEB3BAY" loading="lazy" width="52" height="52" decoding="async" data-nimg="1" class="InfoBox_icon__ERJAf" style="color:transparent" src="3.svg"><h3 class="title_title__BsuHC color-text-blue title-size-xs font-weight-700">Earn 10% on Referrals</h3><p class="text_text__PePj0 color-text-blue text-size-sm font-weight-400">Every time someone signs up and makes a purchase through your referral link, you will receive 10% of their purchase amount in Web3Bay credits.</p></div></div><div class="ReferralProgram_boxes__LFWTt"><div class="InfoBox_box__kYR1v"><img alt="WEB3BAY" loading="lazy" width="52" height="52" decoding="async" data-nimg="1" class="InfoBox_icon__ERJAf" style="color:transparent" src="4.svg"><h3 class="title_title__BsuHC color-text-blue title-size-xs font-weight-700">Help Others Earn Too</h3><p class="text_text__PePj0 color-text-blue text-size-sm font-weight-400">Those who use your referral link will also get 10% extra value on their purchases, creating a win-win situation for both you and your referrals.</p></div><div class="InfoBox_box__kYR1v"><img alt="WEB3BAY" loading="lazy" width="52" height="52" decoding="async" data-nimg="1" class="InfoBox_icon__ERJAf" style="color:transparent" src="5.svg"><h3 class="title_title__BsuHC color-text-blue title-size-xs font-weight-700">Track Your Success</h3><p class="text_text__PePj0 color-text-blue text-size-sm font-weight-400">Monitor your referral activity and earnings directly in your Web3Bay account dashboard. Watch as your network grows and your rewards accumulate.</p></div></div><div class="ReferralProgram_bot__8J9rE"><p class="title_title__BsuHC color-primary title-size-xs font-weight-700">Start sharing your link today and maximize your earnings with Web3Bay’s simple and rewarding referral program.</p><p class="text_text__PePj0 color-text-blue text-size-md font-weight-400">Your network is your power—don’t wait to tap into it!</p></div></div></div></section><section class="section_section__aNYXm faq_section__iieQB"><div class="container_container__ZgtMu faq_container__MMgRB"><div class="faq_content__mjL1S"><div class="SectionTopTexts_content__q2DlT SectionTopTexts_center__toMhE"><span class="text_text__PePj0 color-primary text-size-lg font-weight-600 text_uppercase__evvBR">FAQs</span><h2 class="title_title__BsuHC color-text-blue title-size-md font-weight-600">Common Questions Answered</h2><p class="text_text__PePj0 color-gray text-size-lg font-weight-400">Cryptocurrencies often have lower transaction fees compared to traditional payment methods</p></div><div class="faq_faq__1TWK3"><div class="accordion_accordionArea__ZhVJR" aria-expanded="false" role="button"><div class="accordion_accordion__yYO6x"><div class="accordion_title__yq8TU"><h5 class="text_text__PePj0 color-text-blue text-size-lg font-weight-600">What is the Utility of 3BAY Coin?</h5></div></div><div class="accordion_dropdown__QY8vI" aria-hidden="true" style="max-height:0"><p class="text_text__PePj0 color-text-blue text-size-md font-weight-400">The 3BAY coin is the backbone of the Web3Bay ecosystem, designed to enhance your shopping experience and reward active participation. Its primary utilities include: <br><br>- <b>Transaction Currency:</b> Use 3BAY to buy and sell on the platform, enjoying seamless and secure blockchain transactions. <br>- <b>Discounts and Rewards:</b> Paying with 3BAY unlocks exclusive benefits, such as discounts on purchases, making it the smarter choice for savvy shoppers. <br>- <b>Governance:</b> As a 3BAY holder, you gain a voice in the platform’s future. Propose and vote on changes, upgrades, or new features, helping shape Web3Bay. <br><br>The 3BAY coin isn’t just a payment tool; it’s your gateway to participating in, benefiting from, and influencing the future of Web3Bay.</p></div></div><div class="accordion_accordionArea__ZhVJR" aria-expanded="false" role="button"><div class="accordion_accordion__yYO6x"><div class="accordion_title__yq8TU"><h5 class="text_text__PePj0 color-text-blue text-size-lg font-weight-600">How does Web3Bay differ from other online shopping sites?</h5></div></div><div class="accordion_dropdown__QY8vI" aria-hidden="true" style="max-height:0"><p class="text_text__PePj0 color-text-blue text-size-md font-weight-400">Web3Bay stands out from traditional online shopping platforms due to its foundation on blockchain technology and its emphasis on decentralization. Here’s how Web3Bay is different: <br><br>1. <b>Decentralization</b>: Unlike traditional marketplaces controlled by a central entity, Web3Bay operates on a blockchain, ensuring no single party has control over the platform. This enhances transparency and user autonomy. <br>2. <b>Cryptocurrency Integration</b>: Web3Bay enables payments with cryptocurrencies, including its native token, 3BAY, which offers users a 5% discount on purchases. This feature encourages crypto adoption and adds convenience for digital asset holders. <br>3. <b>Community Governance</b>: Web3Bay empowers its users to shape the platform's future. After full token distribution, the community gains control through governance mechanisms, allowing them to propose and vote on platform upgrades, policies, and features. <br>4. <b>Payment Flexibility</b>: In addition to cryptocurrencies, Web3Bay plans to integrate traditional payment systems like PayPal, Google Pay, and Apple Pay, making it accessible to users unfamiliar with blockchain technology. <br>5. <b>Transparency and Security</b>: All transactions are recorded on the blockchain, offering unparalleled transparency. Users retain control of their data and funds, reducing the risks of fraud and data breaches common on centralized platforms. <br>6. <b>User Rewards</b>: By using 3BAY tokens for transactions, users gain tangible benefits like discounts, creating a more rewarding shopping experience compared to traditional marketplaces. <br><br>Web3Bay isn't just a shopping site—it's a user-driven, secure, and inclusive ecosystem that bridges the gap between decentralized technology and traditional e-commerce.</p></div></div><div class="accordion_accordionArea__ZhVJR" aria-expanded="false" role="button"><div class="accordion_accordion__yYO6x"><div class="accordion_title__yq8TU"><h5 class="text_text__PePj0 color-text-blue text-size-lg font-weight-600">What is a Digital Wallet, and Why Do I Need One?</h5></div></div><div class="accordion_dropdown__QY8vI" aria-hidden="true" style="max-height:0"><p class="text_text__PePj0 color-text-blue text-size-md font-weight-400">A digital wallet is a secure online tool that allows you to store, send, and receive digital assets like cryptocurrencies. Think of it as the blockchain equivalent of a physical wallet, but instead of cash and cards, it holds cryptocurrencies such as Bitcoin, Ethereum, and 3BAY tokens. <br><br><b>Why Do I Need a Digital Wallet for Web3Bay?</b> <br><br>Web3Bay is a blockchain-based platform, and a digital wallet is essential for performing transactions, managing your cryptocurrency funds, and interacting securely with the platform. Here's why you need one: <br><br>1. <b>Secure Transactions</b>: A digital wallet ensures your payments and funds are stored and transferred securely using encryption. <br>2. <b>Ownership and Control</b>: Unlike traditional payment methods, a digital wallet gives you full ownership of your funds. You control your private keys (like a password) to access and manage your crypto assets. <br>3. <b>Seamless Integration with Web3Bay</b>: To list, buy, or sell items on Web3Bay, you need a wallet to connect to the platform and handle cryptocurrency transactions. Payments made with 3BAY tokens are processed directly through your wallet. <br><br>A digital wallet is your gateway to the decentralized world of Web3Bay, giving you security, control, and exclusive benefits while making your e-commerce experience seamless!</p></div></div><div class="accordion_accordionArea__ZhVJR" aria-expanded="false" role="button"><div class="accordion_accordion__yYO6x"><div class="accordion_title__yq8TU"><h5 class="text_text__PePj0 color-text-blue text-size-lg font-weight-600">How Do I Link My Digital Wallet to Web3Bay?</h5></div></div><div class="accordion_dropdown__QY8vI" aria-hidden="true" style="max-height:0"><p class="text_text__PePj0 color-text-blue text-size-md font-weight-400">Linking your digital wallet to Web3Bay is a simple process and is essential for conducting secure cryptocurrency transactions on the platform. Here’s how to do it: <br><br><b>Step-by-Step Guide:</b> <br>1. <b>Choose a Compatible Wallet:</b> <br>- MetaMask (browser extension or mobile app) <br>- Trust Wallet (mobile app) <br><br>2. <b>Visit Web3Bay’s Platform:</b> <br>- Navigate to the official Web3Bay website. <br>- Click on the "Connect Wallet" button, located on the homepage. <br><br>3. <b>Select Your Wallet:</b> <br>- A pop-up will appear with a list of supported wallets. Select the wallet you are using (e.g., MetaMask or Trust Wallet). <br><br>4. <b>Authorize the Connection:</b> <br>- Your wallet app or browser extension will prompt you to authorize the connection. <br>- Review the permissions, and confirm the request to link your wallet to Web3Bay. <br><br>5. <b>Verify the Connection:</b> <br>- Once connected, your wallet address will appear on the Web3Bay platform, confirming the link. <br>- You are now ready to list, buy using cryptocurrencies! <br><br><b>Important Tips:</b> <br>- Keep Your Wallet Secure: Never share your wallet’s private keys or recovery phrase with anyone. <br>- Check Network Settings: Ensure your wallet is set to the correct blockchain network (as specified by Web3Bay) for seamless transactions. <br>- Use Only the Official Web3Bay Platform: Avoid phishing attempts by verifying the website's URL before linking your wallet.</p></div></div><div class="accordion_accordionArea__ZhVJR" aria-expanded="false" role="button"><div class="accordion_accordion__yYO6x"><div class="accordion_title__yq8TU"><h5 class="text_text__PePj0 color-text-blue text-size-lg font-weight-600">What Types of Products Are Available on Web3Bay?</h5></div></div><div class="accordion_dropdown__QY8vI" aria-hidden="true" style="max-height:0"><p class="text_text__PePj0 color-text-blue text-size-md font-weight-400">Web3Bay offers a wide range of products, creating a decentralized marketplace where users can buy and sell items across various categories. The platform is designed to support diverse listings, ensuring there’s something for everyone.</p></div></div><div class="accordion_accordionArea__ZhVJR" aria-expanded="false" role="button"><div class="accordion_accordion__yYO6x"><div class="accordion_title__yq8TU"><h5 class="text_text__PePj0 color-text-blue text-size-lg font-weight-600">How Do Discounts Work with 3BAY?</h5></div></div><div class="accordion_dropdown__QY8vI" aria-hidden="true" style="max-height:0"><p class="text_text__PePj0 color-text-blue text-size-md font-weight-400">When you use 3BAY coins to make purchases on the Web3Bay platform, you unlock exclusive discounts designed to reward your engagement with the ecosystem. Discounts are applied automatically during checkout, reducing the total cost of your purchase. <br><br><b>Here’s how it works:</b> <br>1. <b>Pay with 3BAY:</b> Select 3BAY as your payment method when completing a transaction. <br>2. <b>Instant Savings:</b> The discount is applied in real-time, lowering your purchase price. <br>3. <b>Enjoy the Benefits:</b> Save more while supporting a decentralized marketplace that puts you first. <br><br>These discounts not only make shopping more rewarding but also encourage broader adoption of the 3BAY coin, strengthening the Web3Bay community. It’s a win-win for everyone!</p></div></div><div class="accordion_accordionArea__ZhVJR" aria-expanded="false" role="button"><div class="accordion_accordion__yYO6x"><div class="accordion_title__yq8TU"><h5 class="text_text__PePj0 color-text-blue text-size-lg font-weight-600">Why Can’t I See My 3BAY Coins in My Wallet?</h5></div></div><div class="accordion_dropdown__QY8vI" aria-hidden="true" style="max-height:0"><p class="text_text__PePj0 color-text-blue text-size-md font-weight-400">If you’ve purchased 3BAY coins during the presale, rest assured that your coins are safe and accounted for. During the presale period, 3BAY coins are securely stored and visible only within your Web3Bay account. This ensures proper management and prevents premature trading or transfer. <br><br>Once the presale concludes, your coins will be released and made available for transfer to your designated wallet. Until then, you can monitor your 3BAY balance on the Web3Bay platform. If you have concerns, feel free to contact our support team for assistance.</p></div></div><div class="accordion_accordionArea__ZhVJR" aria-expanded="false" role="button"><div class="accordion_accordion__yYO6x"><div class="accordion_title__yq8TU"><h5 class="text_text__PePj0 color-text-blue text-size-lg font-weight-600">Can I Trade My Coins After the Presale?</h5></div></div><div class="accordion_dropdown__QY8vI" aria-hidden="true" style="max-height:0"><p class="text_text__PePj0 color-text-blue text-size-md font-weight-400">Yes, you’ll be able to trade your purchased 3BAY coins as soon as the presale ends. There is no vesting period for presale purchases, meaning once the presale concludes, your coins will be fully tradable. <br><br>This gives you the freedom to use, trade, or transfer your 3BAY tokens right away, even before the full platform launch.</p></div></div></div></div></div></section><section class="section_section__aNYXm ContactBoxes_sectionBottom__3jZRo"><div class="container_container__ZgtMu ContactBoxes_containerBottom__uukVd"><div class="NeedHelpBox_box__dnC_B"><img alt="WEB3BAY" loading="lazy" width="52" height="52" decoding="async" data-nimg="1" class="NeedHelpBox_icon__h_Gkt" style="color:transparent" src="need-help.svg"><p class="title_title__BsuHC color-primary title-size-xs font-weight-700">Need Help?</p><p class="text_text__PePj0 color-text-blue text-size-md font-weight-400">If you have any questions or need assistance, please visit our <a href="https://web3bay.io/contact-us"><span class="text_text__PePj0 color-primary text-size-md font-weight-400 text_underline___zrJo">Help Center</span></a> or contact our support team at <a href="mailto:support@web3bay.io"><span class="text_text__PePj0 color-primary text-size-md font-weight-400">support@web3bay.io</span></a>.</p></div><div class="JoinCommunityBox_box__EBQ7s"><img alt="WEB3BAY" loading="lazy" width="52" height="52" decoding="async" data-nimg="1" class="JoinCommunityBox_icon__8_7GM" style="color:transparent" src="join-community.svg"><p class="title_title__BsuHC color-primary title-size-xs font-weight-700">Join the Web3Bay Community!</p><p class="text_text__PePj0 color-text-blue text-size-md font-weight-400">Stay updated with the latest news, updates, and exclusive offers by following us on social media:</p><div class="JoinCommunityBox_socials__WK_gR"><a class="JoinCommunityBox_item__L7DcA" href="https://www.facebook.com/profile.php?id=61568688302333&amp;is_tour_dismissed"><img alt="Facebook" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" class="JoinCommunityBox_socialIcon__6k9sO" style="color:transparent" src="facebook-blue.svg"><span class="text_text__PePj0 color-text-blue text-size-md font-weight-400">Facebook</span></a><a class="JoinCommunityBox_item__L7DcA" href="https://x.com/web3bayofficial"><img alt="Twitter" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" class="JoinCommunityBox_socialIcon__6k9sO" style="color:transparent" src="x-blue.svg"><span class="text_text__PePj0 color-text-blue text-size-md font-weight-400">Twitter</span></a><a class="JoinCommunityBox_item__L7DcA" href="https://www.instagram.com/web3bayofficial?igsh=MXBndm84ZmVubGtycQ%3D%3D&amp;utm_source=qr"><img alt="Instagram" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" class="JoinCommunityBox_socialIcon__6k9sO" style="color:transparent" src="instagram-blue.svg"><span class="text_text__PePj0 color-text-blue text-size-md font-weight-400">Instagram</span></a><a class="JoinCommunityBox_item__L7DcA" href="https://t.me/web3bayofficial"><img alt="Telegram" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" class="JoinCommunityBox_socialIcon__6k9sO" style="color:transparent" src="telegram-blue.svg"><span class="text_text__PePj0 color-text-blue text-size-md font-weight-400">Telegram</span></a></div></div></div></section></main><footer class="footer_footer__dfLeS"><div class="container_container__ZgtMu footer_container__9DvpJ"><div class="footer_top__hN6xB"><a href="https://web3bay.io/"><img alt="WEB3BAY" loading="lazy" width="86" height="50" decoding="async" data-nimg="1" class="footer_logo__RPxe3" style="color:transparent" src="logo-dark.svg"></a><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">Web3Bay is an innovative e-commerce platform powered by blockchain technology.</p></div><div class="footer_border__Vsl_L"></div><div class="footer_mid__HDMw8"><div class="footer_nav__sUN88"><div class="footer_content__sL0ai footer_active__h87Pd"><div class="footer_titleContainer__7LNnX"><span class="text_text__PePj0 color-text-blue text-size-lg font-weight-600">Categories</span><img alt="chevron" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" class="footer_chevron__5TWZ9 d-sm" style="color:transparent" src="chevron-down-dark.svg"></div><div class="footer_links__zoGy1"><a href="https://web3bay.io/categories/luxury"><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">Luxury</p></a><a href="https://web3bay.io/categories/sneakers"><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">Sneakers</p></a><a href="https://web3bay.io/categories/p&amp;a"><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">P&amp;A</p></a><a href="https://web3bay.io/categories/refurbished"><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">Refurbished</p></a><a href="https://web3bay.io/categories/game-cards"><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">Game Cards</p></a><a href="https://web3bay.io/categories/pre-loved-luxury"><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">Pre-loved Luxury</p></a><a href="https://web3bay.io/categories/toys"><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">Toys</p></a></div></div><div class="footer_content__sL0ai footer_active__h87Pd"><div class="footer_titleContainer__7LNnX"><span class="text_text__PePj0 color-text-blue text-size-lg font-weight-600">Token</span><img alt="chevron" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" class="footer_chevron__5TWZ9 d-sm" style="color:transparent" src="chevron-down-dark.svg"></div><div class="footer_links__zoGy1"><a href="https://web3bay.io/tokenomics"><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">Tokenomics</p></a><a href="https://web3bay.io/roadmap"><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">Roadmap</p></a><a href=""><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">Buy $3BAY</p></a><a href="https://web3bay.io/sell"><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">Sell Product</p></a><a href="https://web3bay.io/whitepaper.pdf"><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">Whitepaper</p></a></div></div><div class="footer_content__sL0ai footer_active__h87Pd"><div class="footer_titleContainer__7LNnX"><span class="text_text__PePj0 color-text-blue text-size-lg font-weight-600">Company</span><img alt="chevron" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" class="footer_chevron__5TWZ9 d-sm" style="color:transparent" src="chevron-down-dark.svg"></div><div class="footer_links__zoGy1"><a href="https://web3bay.io/about-us"><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">About Us</p></a><a href="https://web3bay.io/faq"><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">FAQs</p></a><a href="https://web3bay.io/contact-us"><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">Contact Us</p></a></div></div></div><div class="footer_newsletter__7owle"><span class="text_text__PePj0 color-text-blue text-size-lg font-weight-600 d-md">Subscribe to our newsletter</span><span class="text_text__PePj0 color-text-blue text-size-xl font-weight-600 d-sm">Subscribe to our newsletter</span><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">Stay updated with the latest news, exclusive offers, and insider tips from Web3Bay. Join our community and never miss out on exciting updates!</p><form class="footer_form__hj1sc"><input type="text" placeholder="olivia@gmail.com" name="email" value=""><button type="submit" class="button_button___iXOl button_primary__Wwp9q button_dark__xS_p5">Submit</button></form></div></div><div class="footer_border__Vsl_L"></div><div class="footer_bot__KrvCX"><div class="footer_left__2UnZB"><p class="text_text__PePj0 color-gray text-size-sm font-weight-400">Copyright © 2024 Web3BAY - All Rights Reserved<!-- --> </p><div class="footer_terms__HQAxO"><a href="https://web3bay.io/cookie-policy"><p class="text_text__PePj0 color-gray text-size-xs font-weight-400">Cookie Policy</p></a><a href="https://web3bay.io/terms-of-use"><p class="text_text__PePj0 color-gray text-size-xs font-weight-400">Terms of Use</p></a><a href="https://web3bay.io/privacy-policy"><p class="text_text__PePj0 color-gray text-size-xs font-weight-400">Privacy Policy</p></a></div></div><div class="footer_socials__i9b54"><a class="footer_item__OfOYB" href="https://www.facebook.com/profile.php?id=61568688302333&amp;is_tour_dismissed"><img alt="Facebook" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" class="" style="color:transparent" src="facebook-blue.svg"></a><a class="footer_item__OfOYB" href="https://x.com/web3bayofficial"><img alt="Twitter" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" class="" style="color:transparent" src="x-blue.svg"></a><a class="footer_item__OfOYB" href="https://www.instagram.com/web3bayofficial?igsh=MXBndm84ZmVubGtycQ%3D%3D&amp;utm_source=qr"><img alt="Instagram" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" class="" style="color:transparent" src="instagram-blue.svg"></a><a class="footer_item__OfOYB" href="https://t.me/web3bayofficial"><img alt="Telegram" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" class="" style="color:transparent" src="telegram-blue.svg"></a></div></div><div class="footer_border__Vsl_L"></div><p class="text_text__PePj0 color-gray text-size-xs font-weight-400">Cryptocurrency may not be regulated in your jurisdiction. The value of cryptocurrencies can fluctuate, which means you may experience both gains and losses. Any profits could be subject to capital gains or other taxes based on your local laws. The information on this website does not represent an offer, recommendation, or financial advice to buy or sell any cryptocurrency. You are responsible for determining whether any transaction is suitable for you, taking into account your personal objectives, financial situation, and risk tolerance.</p></div></footer><div id="toast-root" class="toast-container __className_d65c78"></div><div id="modal-root"></div><noscript><iframe src="index_3.html" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><next-route-announcer style="position: absolute;" data-scrapbook-shadowdom="<div aria-live=&quot;assertive&quot; id=&quot;__next-route-announcer__&quot; role=&quot;alert&quot; style=&quot;position: absolute; border: 0px; height: 1px; margin: -1px; padding: 0px; width: 1px; clip: rect(0px, 0px, 0px, 0px); overflow: hidden; white-space: nowrap; overflow-wrap: normal;&quot;></div>"></next-route-announcer><w3m-modal style="--local-border-bottom-mobile-radius: 0px;" data-scrapbook-adoptedstylesheets="0" data-scrapbook-shadowdom="<!---->"></w3m-modal>
+
+<noscript><img height="1" width="1" style="display:none" src="tr.txt"></noscript>
+<iframe height="0" width="0" style="display: none; visibility: hidden;" src="index_1.html"></iframe><script data-scrapbook-elem="basic-loader">(function () { var k1 = "data-scrapbook-shadowdom", k2 = "data-scrapbook-canvas", k3 = "data-scrapbook-input-indeterminate", k4 = "data-scrapbook-input-checked", k5 = "data-scrapbook-option-selected", k6 = "data-scrapbook-input-value", k7 = "data-scrapbook-textarea-value", k8 = "data-scrapbook-adoptedstylesheets", k9 = /^data-scrapbook-adoptedstylesheet-(\d+)$/, k10 = "data-scrapbook-shadowdom-mode", k11 = "data-scrapbook-shadowdom-clonable", k12 = "data-scrapbook-shadowdom-delegates-focus", k13 = "data-scrapbook-shadowdom-serializable", k14 = "data-scrapbook-shadowdom-slot-assignment", k15 = "data-scrapbook-slot-assigned", k16 = "data-scrapbook-slot-index", k17 = /^scrapbook-slot-index=(\d+)$/; k18 = '/scrapbook-slot-index'; d = document, r = d.documentElement, $s = !!r.attachShadow, $as = !!d.adoptedStyleSheets, $c = !!window.HTMLCanvasElement, $sa = !!d.createElement('slot').assign, sle = [], sls = [], slt = function (r) { if ($sa) { var E = r.childNodes, i, e, s, m; for (i = 0; i < E.length; i++) { e = E[i]; if (e.nodeType === 8) { s = e.nodeValue; if (m = s.match(k17)) { s = e.nextSibling; if (s.nodeType === 3) { sls[m[1]] = s; } r.removeChild(e); i--; } else if (s === k18) { r.removeChild(e); i--; } } } } }, sl = function () { var i = sle.length, j, d, e; while (i--) { d = sle[i]; e = d.elem; d = d.value.split(','); j = d.length; while (j--) { d[j] = sls[parseInt(d[j], 10)]; } try { e.assign.apply(e, d); } catch (ex) { console.error(ex); } } }, asl = (function (r) { var l = [], E, i, e, m, c, j; if ($as) { E = r.attributes; i = E.length; while (i--) { e = E[i]; if (!(m = e.nodeName.match(k9))) { continue; } c = l[m[1]] = new CSSStyleSheet(); r.removeAttribute(m[0]); m = e.nodeValue.split('\n\n'); j = m.length; while (j--) { try { m[j] && c.insertRule(m[j]); } catch (ex) { console.error(ex); } } } } return l; })(r), as = function (d, e) { var l, i, I; if ($as && (l = e.getAttribute(k8)) !== null) { l = l.split(','); for (i = 0, I = l.length; i < I; i++) { d.adoptedStyleSheets.push(asl[l[i]]); } e.removeAttribute(k8); } }, fn = function (r) { var E = r.querySelectorAll ? r.querySelectorAll("*") : r.getElementsByTagName("*"), i = E.length, e, d, s, m; while (i--) { e = E[i]; s = e.shadowRoot; if ($s && (d = e.getAttribute(k1))) { if (!s) { try { s = e.attachShadow({ mode: (m = e.getAttribute(k10)) !== null ? m : 'open', clonable: e.hasAttribute(k11), delegatesFocus: e.hasAttribute(k12), serializable: e.hasAttribute(k13), slotAssignment: (m = e.getAttribute(k14)) !== null ? m : void(0), }); s.innerHTML = d; } catch (ex) { console.error(ex); } } e.removeAttribute(k1); e.removeAttribute(k10); e.removeAttribute(k11); e.removeAttribute(k12); e.removeAttribute(k13); e.removeAttribute(k14); } if ($c && (d = e.getAttribute(k2)) !== null) { (function () { var c = e, g = new Image(); g.onload = function () { c.getContext('2d').drawImage(g, 0, 0); }; g.src = d; })(); e.removeAttribute(k2); } if ((d = e.getAttribute(k3)) !== null) { e.indeterminate = true; e.removeAttribute(k3); } if ((d = e.getAttribute(k4)) !== null) { e.checked = d === 'true'; e.removeAttribute(k4); } if ((d = e.getAttribute(k5)) !== null) { e.selected = d === 'true'; e.removeAttribute(k5); } if ((d = e.getAttribute(k6)) !== null) { e.value = d; e.removeAttribute(k6); } if ((d = e.getAttribute(k7)) !== null) { e.value = d; e.removeAttribute(k7); } if ($sa && (d = e.getAttribute(k15)) !== null) { sle.push({elem: e, value: d}); e.removeAttribute(k15); } if ($sa && (d = e.getAttribute(k16)) !== null) { sls[d] = e; e.removeAttribute(k16); } if (s) { slt(e); as(s, e); fn(s); } } }; as(d, r); fn(d); sl(); })()</script></body></html>
